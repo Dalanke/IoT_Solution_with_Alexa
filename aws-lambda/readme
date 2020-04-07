@@ -1,0 +1,12 @@
+[lambda function]
+This lambda function is host by Alexa, 
+see Alexa-hosted Skill:https://developer.amazon.com/docs/hosted-skills/build-a-skill-end-to-end-using-an-alexa-hosted-skill.html 
+please add Dependencies paho-mqtt==1.4.0 to requirements.txt
+
+[Alexa skill]
+Alexa skill design is export as an json file in /Alexa skill/skill.json
+This is ONLY a simple representation of skill design, to get more detail,
+import the JSON file into a custom skill and use the Alexa developer console
+skill should build first before enable
+see video for skill demo
+

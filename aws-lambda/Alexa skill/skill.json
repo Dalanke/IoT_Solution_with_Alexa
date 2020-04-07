@@ -1,0 +1,106 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my housekeeper",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "DeviceDiscovery",
+                    "slots": [],
+                    "samples": [
+                        "which device is available",
+                        "find my devices",
+                        "find actived devices"
+                    ]
+                },
+                {
+                    "name": "GetTemperature",
+                    "slots": [],
+                    "samples": [
+                        "get my home's temperature",
+                        "what is the temperature now"
+                    ]
+                },
+                {
+                    "name": "GetHumidity",
+                    "slots": [],
+                    "samples": [
+                        "get the humidity",
+                        "what is the humidity now"
+                    ]
+                },
+                {
+                    "name": "GetPressure",
+                    "slots": [],
+                    "samples": [
+                        "what is the pressure",
+                        "get the pressure"
+                    ]
+                },
+                {
+                    "name": "LightControl",
+                    "slots": [
+                        {
+                            "name": "action",
+                            "type": "LightAction"
+                        }
+                    ],
+                    "samples": [
+                        "{action} the light",
+                        "turn {action} the LED",
+                        "turn {action} the light"
+                    ]
+                },
+                {
+                    "name": "MqttTest",
+                    "slots": [],
+                    "samples": [
+                        "test the mqtt"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "LightAction",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "brighten"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dim"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "off"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "on"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
