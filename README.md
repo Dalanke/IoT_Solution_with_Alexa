@@ -1,4 +1,4 @@
-##IoT_Solution_with_Alexa
+## IoT_Solution_with_Alexa
 
 An IoT end-to-end solution with Alexa and Ubidots. Project provides an Alexa skill that connect to IoT gateway by MQTT.
 
@@ -13,7 +13,7 @@ Application UML design:
 
 ![image](https://github.com/Dalanke/IoT_Solution_with_Alexa/blob/master/images/UML.png)
 
-##Usage
+## Usage
 
 * aws-lambda: Alexa skill files and  Alexa hosted Lambda function
 * gateway: gateway application(Java application)
